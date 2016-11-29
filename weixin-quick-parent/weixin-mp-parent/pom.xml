@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springboot.quick</groupId>
-		<artifactId>springboot-quick-build</artifactId>
+		<artifactId>weixin-quick-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<artifactId>weixin-quick-parent</artifactId>
+	<artifactId>weixin-mp-parent</artifactId>
 	<packaging>pom</packaging>
 	<modules>
-		<module>weixin-third-parent</module>
-		<module>weixin-mp-parent</module>
+		<module>weixin-mp-sdk</module>
 	</modules>
 </project>
