@@ -20,7 +20,8 @@
 	</properties>
 
 	<modules>
-		
+
+	<module>weixin-quick-parent</module>
 	</modules>
 
 	<dependencies>
